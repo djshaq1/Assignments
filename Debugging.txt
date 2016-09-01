@@ -1,0 +1,41 @@
+My Projects that I debugged
+
+* Bank Account
+Found bug in Savings for Interest Rate. When doing set Interest Rate, you could enter a negative nummber
+
+corrected it by changing code to
+
+
+public void setInterestRate(double interestRate) {
+	if (InterestRate > 0) {
+	InterestRate = interestRate;
+	}
+else{
+		System.out.println("Impossible Interest");
+	}
+
+
+* BowlingGame
+
+Didn't find any bugs.
+
+
+* ClassRosterAndDatabase
+
+- Found areas of code that were unneccessarry.
+Corrected it by deleting the lines and making the code simpler.
+
+
+* Craps
+
+Didn't find any bugs.
+
+
+* Dice Game
+
+Didn't find any bugs.
+
+
+* TheBankStatement
+
+Found same problem from other Savings Account. Made same changes.
